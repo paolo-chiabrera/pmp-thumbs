@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- v7
+- v6
+deploy:
+  provider: npm
+  email: paolo.chiabrera@gmail.com
+  api_key:
+    secure: UsOQ7hayvEHPXKMRCR8pTcQ8LOq00FpHZw176dtoKwm92QCIKVE5THieYo2SrSgarSei3EaqbQBHVWNTRW4bEe7CBcIckOHuxqiXrF4ZNOWYopa/ZyMovfS/ael3Xmg3YKwZN0vWkr0QJ5Ss4aNxkwQTZFEmeAwhis60SBfJSCLtMWbvBQRJsrhep98eAC1DyS4y9+9riuZrbjWOf9fOvME1QHfCrldmMsqE/7+EESaUFxMJq5BqK+CBEo/fD0N8u5sFAg/57AFerKurWz3xSmROaIUFw+WLjbytgDyR7aZCQ6w3oOZAcvWCY6Hylec6pYLI1SUxWTScLOLSjbxuWgQ0AeudmSjlHJRTkQSP6kj0aC9d6YON91k8JbiD1X2OPw9XYTTflUo39WJE27qFv8xoDYF4lKMzvUmvAlCapBbD5BFNZ9TrHfG9XqwwYiLHFdLs1tN9fGN/4WnE0zFldB00KKVMoy3rJIXL5Xdx7nYp6KIKRtWb5qxibPk4E2X/KqNj5BkidRFwYNJFntw8NFi8DGkxVt8CgJzYfFJE7/FRuLVvIMTOHrf2XACka64wwXbGFvl0czdBKdHQI4vw4kdbVU3oJQrfsyiHb4i2Zj4F0Jh0YcNwWyZNVRCUQZ1JF/gRueXv3CCOMc1vn1pxLL+uRT6++/ExX9DrTg337ms=
+  on:
+    tags: true
+    node: v6
+    repo: paolo-chiabrera/pmp-thumbs
